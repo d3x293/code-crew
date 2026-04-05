@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo \"$CLAUDE_FILE_PATHS\" >> .claude/.index-stale"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "codecrew",
+  "description": "Local marketplace for CodeCrew plugin",
+  "owner": {
+    "name": "Anil Nikam"
+  },
+  "plugins": [
+    {
+      "name": "codecrew",
+      "source": "./",
+      "version": "0.1.0",
+      "category": "workflow",
+      "tags": [
+        "agents",
+        "orchestration",
+        "multi-agent",
+        "crew",
+        "codecrew",
+        "indexing"
+      ]
+    }
+  ]
+}

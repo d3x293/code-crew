@@ -1,0 +1,39 @@
+{
+  "name": "codecrew",
+  "version": "0.1.0",
+  "description": "Multi-agent orchestration plugin - a virtual dev crew with intelligent model routing (Opus/Sonnet/Haiku), lite mode, 3-layer codebase indexing, auto-skill selection, task history, rollback, and custom agents",
+  "author": {
+    "name": "Anil Nikam"
+  },
+  "license": "MIT",
+  "keywords": [
+    "agents",
+    "orchestration",
+    "multi-agent",
+    "crew",
+    "codecrew",
+    "routing",
+    "indexing",
+    "memory-optimizer"
+  ],
+  "agents": [
+    "./agents/ceo.md",
+    "./agents/vp-engineering.md",
+    "./agents/vp-quality.md",
+    "./agents/senior-dev.md",
+    "./agents/junior-dev.md",
+    "./agents/code-reviewer.md",
+    "./agents/debugger.md",
+    "./agents/security-analyst.md",
+    "./agents/devops-engineer.md",
+    "./agents/doc-writer.md",
+    "./agents/test-engineer.md"
+  ],
+  "skills": [
+    "./skills/"
+  ],
+  "commands": [
+    "./commands/",
+    "./commands/crew-lite.md"
+  ]
+}
